@@ -3,7 +3,7 @@
 
 void main(){
 
-    int x = 50;
+    int x = 30;
     int y = 10;
     if (x == 30){
         if (y == 10){

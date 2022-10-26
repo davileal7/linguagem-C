@@ -10,9 +10,9 @@ void main(){
 
     if (x < 30)
     {
-    printf("x e MENOR");
+    printf("x é MENOR");
     }
     else /* else não faz teste*/
-    printf("x e MAIOR");
+    printf("x é MAIOR");
     
 }
