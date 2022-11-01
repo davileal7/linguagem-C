@@ -9,7 +9,7 @@ int main(){
 
     for (x = 0; x <= tam;x++)
     {
-        
+        if (cadeia[x] != 'a' && cadeia[x] != 'e' && cadeia[x] != 'i' && cadeia[x] != 'o' && cadeia[x] != 'u' )
         printf("%c", cadeia[x]);
     }
     printf("\n");
