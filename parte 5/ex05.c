@@ -3,13 +3,12 @@
 
 void main(){
 
-    int tam;
-    char str[100];
-    printf("Digite string ");
-
-    gets(str);
-    tam=strlen(str);
-    printf("Tamanho da string eh: %d\n",tam);
+    int tamanho;
+    char item[1];
+    printf("Digite string: ");
+    gets(item);
+    tamanho=strlen(item); //quantas letras tem na var(str)
+    printf("Tamanho da string eh: %d\n",tamanho);
 
     char str1[100], str2[100], str3[100];
     puts("Digite string: ");

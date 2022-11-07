@@ -6,6 +6,7 @@ typedef struct no{
 int info;
 struct no * proximo;
 }No;
+
 typedef struct pilha{
 No* topo;
 } Pilha;
@@ -14,6 +15,7 @@ Pilha* p = (Pilha*)malloc(sizeof(Pilha));
 p->topo = NULL;
 return p;
 }
+
 /* Funcao de insercao no inicio: retorna a lista atualizada */
 No* insere(No* lista, int num){
 No* novo_no = (No*)malloc(sizeof(No));

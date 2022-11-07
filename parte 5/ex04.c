@@ -1,4 +1,10 @@
 #include <stdio.h>
+/* 
+getchar() ler caracter
+putchar() imprime um caracter
+gets() lê uma string
+puts() imprime a string na tela
+*/
 
 void main(){
     char faculdade [5];
@@ -10,15 +16,24 @@ void main(){
 
     printf("%s \n", faculdade);
 
-    char c = 97;
-    printf("%d %c \n",c,c);
+    char c = 'abcdefj';
+    printf(" oi %d letra: %c \n",c,c);
 
-    /*
-    char cadeia[256];
-    printf("Escreva o seu nome:");
-    gets("cadeia");
-    puts("cadeia");
-    */
+    
+    char nome1[1],nome2[2];
+    printf("Escreva o primeiro nome: ");
+    gets(nome1);
+    printf("Ola, voce se chama: ");
+    puts(nome1);
+    printf("Escreva o segundo nome: ");
+    gets(nome2);
+    puts(nome2);
+    
+    char teste;
+    printf("digite algo");
+    teste=getchar();
+    printf("letra digitada: %c",teste);
+    
 
     char cadeia1[100], cadeia2[50];
     puts("Digite string1: ");
@@ -29,9 +44,3 @@ void main(){
     puts(cadeia1);
 }
 
-/* 
-getchar() ler caracter
-putchar() imprime um caracter
-gets() lê uma string
-puts() imprime a string na tela
-*/
