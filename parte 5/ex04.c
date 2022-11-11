@@ -19,7 +19,6 @@ void main(){
     char c = 'abcdefj';
     printf(" oi %d letra: %c \n",c,c);
 
-    
     char nome1[1],nome2[2];
     printf("Escreva o primeiro nome: ");
     gets(nome1);
@@ -30,11 +29,10 @@ void main(){
     puts(nome2);
     
     char teste;
-    printf("digite algo");
+    printf("digite algo: ");
     teste=getchar();
     printf("letra digitada: %c",teste);
     
-
     char cadeia1[100], cadeia2[50];
     puts("Digite string1: ");
     gets(cadeia1);
